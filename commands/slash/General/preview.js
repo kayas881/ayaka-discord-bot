@@ -6,7 +6,7 @@ const {
   EmbedBuilder,
 } = require("discord.js");
 const shopData = require("./../../../banners.json");
-
+const itemsData = require('./../../../Wishjsons/items.json')
 let currentPage = 0; // Global variable to keep track of the current page
 let selectedCategoryData = {}; // Object to store category and related data
 
@@ -22,7 +22,7 @@ module.exports = {
   },
   run: async (client, interaction, config, db) => {
     // Create categories
-    const categories = ["Banners", "Colors"];
+    const categories = ["Banners", "Colors", "Items" ];
     let items = []; // Initialize items as an empty array
 
     // Create a Select Menu for categories
@@ -83,11 +83,15 @@ module.exports = {
           category: interaction.values[0],
           items: [],
         };
-        selectedCategoryData.items =
-          selectedCategoryData.category === "Banners"
-            ? shopData.banners
-            : shopData.colors;
-
+        if (selectedCategoryData.category === "Banners") {
+          selectedCategoryData.items = shopData.banners;
+        } else if (selectedCategoryData.category === "Colors") {
+          selectedCategoryData.items = shopData.colors;
+        } else if (selectedCategoryData.category === "Items") {
+          selectedCategoryData.items = itemsData.items; // Handle "Items" category
+        }
+       
+        
         // Update the pageItems calculation
         const startIndex = currentPage * maxItemsPerPage;
         const endIndex = (currentPage + 1) * maxItemsPerPage;
@@ -104,11 +108,17 @@ module.exports = {
           .addFields(
             selectedCategoryData.pageItems.map((item) => ({
               name: item.name,
-              value: `Price: ${item.price.primogems} Primogems`,
+              value: `Price: ${item.price.primogems ? item.price.primogems : item.price.mora} ${item.price.primogems ? 'Primogems' : 'Mora'}`,
               inline: true,
             }))
           )
-          .setImage(selectedCategoryData.pageItems[0].image);
+          if (selectedCategoryData.category === "Banners") {
+            embed.setImage(selectedCategoryData.pageItems[0].image);
+          }
+          else if(selectedCategoryData.category === "Items"){
+            embed.setThumbnail(selectedCategoryData.pageItems[0].image)
+            embed.setDescription(selectedCategoryData.pageItems[0].description);
+          }
 
         if (!interaction.deferred) {
           await interaction.deferUpdate();
@@ -138,12 +148,17 @@ module.exports = {
           .addFields(
             selectedCategoryData.pageItems.map((item) => ({
               name: item.name,
-              value: `Price: ${item.price.primogems} Primogems`,
+              value: `Price: ${item.price.primogems ? item.price.primogems : item.price.mora} ${item.price.primogems ? 'Primogems' : 'Mora'}`,
               inline: true,
             }))
           )
-          .setImage(selectedCategoryData.pageItems[0].image);
-
+          if (selectedCategoryData.category === "Banners") {
+            embed.setImage(selectedCategoryData.pageItems[0].image);
+          }
+          else if(selectedCategoryData.category === "Items"){
+            embed.setThumbnail(selectedCategoryData.pageItems[0].image)
+            embed.setDescription(selectedCategoryData.pageItems[0].description);
+          }
         if (!interaction.deferred) {
           await interaction.deferUpdate();
         }
@@ -174,11 +189,17 @@ module.exports = {
           .addFields(
             selectedCategoryData.pageItems.map((item) => ({
               name: item.name,
-              value: `Price: ${item.price.primogems} Primogems`,
+              value: `Price: ${item.price.primogems ? item.price.primogems : item.price.mora} ${item.price.primogems ? 'Primogems' : 'Mora'}`,
               inline: true,
             }))
           )
-          .setImage(selectedCategoryData.pageItems[0].image);
+          if (selectedCategoryData.category === "Banners") {
+            embed.setImage(selectedCategoryData.pageItems[0].image);
+          }
+          else if(selectedCategoryData.category === "Items"){
+            embed.setThumbnail(selectedCategoryData.pageItems[0].image)
+            embed.setDescription(selectedCategoryData.pageItems[0].description);
+          }
 
         if (!interaction.deferred) {
           await interaction.deferUpdate();

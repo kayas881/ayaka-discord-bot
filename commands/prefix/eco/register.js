@@ -61,7 +61,7 @@ module.exports = {
     });
     await newUser.save();
     message.reply(
-      "You have been successfully registered in the database. Use the !status command to check your status."
+      "You have been successfully registered in the database. Use the Balance command to check your Aya profile."
     );
   },
 };

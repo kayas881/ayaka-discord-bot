@@ -58,7 +58,7 @@ module.exports = {
       await updateARRank(message, username, experienceGained, message.channel);
       treasureMap.count--;
       fortuneSlip.count--;
-    }
+    } 
     // Add rewards to the user's currency
     user.mora += rewards.mora;
     user.primogems += rewards.primogems;
@@ -81,7 +81,7 @@ module.exports = {
     // Edit the finding treasure message to display the results
     findingTreasureEmbed
       .setTitle("Treasure Found!")
-      .setDescription("You used a fishing rod and got")
+      .setDescription("You used a Treasure map and got")
       .addFields(
         {
           name: "Primogems:",
