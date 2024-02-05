@@ -1,0 +1,77 @@
+[
+  {
+    "name": "monabanner",
+    "price": {
+      "primogems": 1800
+    },
+    "image": "https://images5.alphacoders.com/112/1123013.jpg",
+    "type": "banner"
+  },
+  {
+    "name": "klee",
+    "price": {
+      "primogems": 160
+    },
+    "image": "https://i.pinimg.com/originals/4c/4b/6f/4c4b6fe8c4c33011e4d473c1e0a86f52.jpg",
+    "type": "pfp"
+  },
+  {
+    "name": "venti",
+    "price": {
+      "primogems": 1680
+    },
+    "image": "https://i.pinimg.com/originals/9b/fc/09/9bfc095dc312e2e117042efe0fc1b82e.jpg",
+    "type": "pfp"
+  },
+  {
+    "name": "mcxiao",
+    "price": {
+      "primogems": 1680
+    },
+    "image": "https://wallpapers-clan.com/wp-content/uploads/2022/09/genshin-impact-xiao-pfp-6.jpg",
+    "type": "pfp"
+  },
+  {
+    "name": "Mona",
+    "price": {
+      "primogems": 1680
+    },
+    "image": "https://steamuserimages-a.akamaihd.net/ugc/1696128786311283983/37565D066AF75DC551C23737977CFD0188DC03C3/?imw=512&&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false.jpg",
+    "type": "pfp"
+  },
+  {
+    "name": "koko",
+    "price": {
+      "primogems": 1680
+    },
+    "image": "https://i1.sndcdn.com/artworks-yOhyL4U2UySETl34-lP6ArQ-t500x500.jpg",
+    "type": "pfp"
+  },
+  {
+    "name": "Childe",
+    "price": {
+      "primogems": 1680
+    },
+    "image": "https://static.wikia.nocookie.net/df7703dc-d3c6-486f-92a1-7eb226f5a266",
+    "type": "pfp"
+  },
+  {
+    "name": "fischl",
+    "price" : {
+      "primogems": 1680
+    },
+    "image": "https://upload-os-bbs.hoyolab.com/upload/2023/12/09/340758249/44e9f75bf828eaf8801634da9240e965_3533404568536140208.png?x-oss-process=image%2Fresize%2Cs_1000%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_80",
+    "type":"pfp"
+
+  },
+  {
+    "name": "Paimon",
+    "price": {
+      "mora": 3080
+    },
+    "image": "https://pfps.gg/assets/pfps/5560-paimon.png",
+    "type": "pfp"
+  }
+
+
+]

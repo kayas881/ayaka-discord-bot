@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "3001",
+      "name": "Fishing Rod",
+      "description": "A basic fishing rod for catching fish.",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e8/Item_Moonstringer.png/revision/latest?cb=20210910023752",
+      "rarity": 3,
+      "type": "item",
+      "price": {
+        "mora": 12000
+      }
+    },
+    {
+      "id": "3002",
+      "name": "Transient Resin",
+      "description": "An item that can be used to replenish Original Resin. e.g.+60",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Transient_Resin.png/revision/latest?cb=20210428025433",
+      "rarity": 3,
+      "type": "item",
+      "price": {
+        "mora": 5000
+      }
+    },
+    {
+      "id": "3003",
+      "name": "Treasure Map",
+      "description": "treasure map to find hidden treasure!",
+      "image": "https://images-ext-2.discordapp.net/external/2ryVyR4EDLW-SpmoibZEcZSBg1OMJBh92dZmV3WEmYc/%3Fcb%3D20201218052620/https/static.wikia.nocookie.net/gensin-impact/images/4/43/Item_Treasure_Map.png/revision/latest?width=281&height=281",
+      "rarity": 3,
+      "type": "item",
+      "price": {
+        "mora": 2000
+      }
+    },
+    {
+      "id": "3004",
+      "name": "Elixir of Enhancement",
+      "description": "An elixir that temporarily boosts the user's character stats.",
+      "image": "https://images-ext-2.discordapp.net/external/meYUbQxYLjeSG0C96TCpAjg3fe_1b1bUvkqWRUb-1jM/%3Fcb%3D20210109215849/https/static.wikia.nocookie.net/gensin-impact/images/a/a3/Item_Mist_Veiled_Primo_Elixir.png/revision/latest/thumbnail/width/360/height/360?width=396&height=396",
+      "rarity": 3,
+      "type": "item",
+      "price": {
+        "mora": 8000
+      }
+    },
+    {
+      "id": "3006",
+      "name": "Fortune Slip",
+      "description": "A talisman believed to bring good fortune..",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Item_Fortune_Slip_Opened.png/revision/latest?cb=20210725221204",
+      "rarity": 3,
+      "type": "item",
+      "price": {
+        "mora": 2200
+      }
+    },
+    {
+      "id": "3007",
+      "name": "Weapon Card",
+      "description": "Use it to upgrade weapons.",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/Traveler%27s_Handy_Sword_Equipment_Card.png/revision/latest?cb=20221205102714",
+      "rarity": 3,
+      "type": "item",
+      "price": {
+        "mora": 5000
+      }
+    },
+    {
+      "id": "3008",
+      "name": "Training manual",
+      "description": "Increases the user's adventurer rank experience, helping them level up.",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Book_The_Legend_of_Vennessa.png/revision/latest?cb=20201023135333",
+      "rarity": 3,
+      "type": "item",
+      "price": {
+        "mora": 3200
+      }
+    }
+  ]
+}

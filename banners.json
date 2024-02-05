@@ -1,0 +1,99 @@
+{
+    "banners": [
+        {
+            "name": "monabanner",
+            "price": {
+              "primogems": 1680
+            },
+            "image": "https://images5.alphacoders.com/112/1123013.jpg",
+            "type": "banner"
+          },
+          {
+            "name": "Mondstat",
+            "price": {
+              "primogems": 1680
+            },
+            "image": "https://images4.alphacoders.com/132/1329756.png",
+            "type": "banner"
+          },       {
+            "name": "Inazuma",
+            "price": {
+              "primogems": 1680
+            },
+            "image": "https://images.alphacoders.com/134/1343095.png",
+            "type": "banner"
+          } ,
+         {
+            "name": "columbina",
+            "price": {
+              "primogems": 1680
+            },
+            "image": "https://images3.alphacoders.com/132/1325245.png",
+            "type": "banner"
+          },{
+            "name": "Barbara",
+            "price": {
+              "primogems": 1680
+            },
+            "image": "https://images5.alphacoders.com/110/1107810.jpg",
+            "type": "banner"
+          },
+          {
+            "name": "Genshin impact",
+            "price": {
+              "primogems": 1680
+            },
+            "image": "https://images5.alphacoders.com/110/1108905.jpg",
+            "type": "banner"
+          }
+         
+    ],
+    "colors": [
+      {
+          "name": "Turquoise",
+          "value": "#35f0cd",
+          "price":{
+            "primogems": 180
+         },
+         "type": "color"
+       },
+       {
+        "name": "Venetian Red",
+        "value": "#e32c1b",
+        "price":{
+          "primogems": 180
+       },
+       "type": "color"
+     },
+     {
+      "name": "Harlequin Green",
+      "value": "#3ae01d",
+      "price":{
+        "primogems": 180
+     },
+     "type": "color"
+   },
+   {
+    "name": "Shamrock",
+    "value": "#1de089",
+    "price":{
+      "primogems": 180
+   },
+   "type": "color"
+ },  {
+  "name": "Pericallis Hybrida",
+  "value": "#8849f5",
+  "price":{
+    "primogems": 180
+ },
+ "type": "color"
+},
+{
+  "name": "Pink kind",
+  "value": "#f551d7",
+  "price":{
+    "primogems": 180
+ },
+ "type": "color"
+}   ]
+}

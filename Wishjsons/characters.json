@@ -1,0 +1,1336 @@
+{
+  "characters": [
+    {
+      "id": "1001",
+      "name": "Yelan",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Character_Yelan_Full_Wish.png/revision/latest?cb=20220531085912",
+      "stats": {
+        "hp": 14450,
+        "atk":243,
+        "def":150,
+        "critDmg":180,
+        "critRate": 10
+      }
+    },
+    {
+      "id": "1002",
+      "name": "Beidou",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/Beidou_Card.png/revision/latest?cb=20220725204858",
+      "stats": {
+        "hp": 13049,
+        "atk": 225,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 5
+      }
+    },
+    {
+      "id": "1003",
+      "name": "Xingqiu",
+      "rarity": 4,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Character_Xingqiu_Full_Wish.png/revision/latest?cb=20220507161206",
+      "stats": {
+        "hp": 10222,
+        "atk": 201,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 5
+      }
+    },
+    {
+      "id": "1004",
+      "name": "diona",
+      "rarity": 4,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/14/Diona_Card.png/revision/latest?cb=20201107193459",
+      "stats": {
+        "hp": 9569,
+        "atk": 212,
+        "def": 120,
+        "critDmg": 100,
+        "critRate": 5
+      }
+    },
+    {
+      "id": "1005",
+      "name": "Diluc",
+      "rarity": 5,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Diluc_Card.png/revision/latest?cb=20220725204921",
+      "stats": {
+        "hp": 16000,
+        "atk": 300,
+        "def": 120,
+        "critDmg": 200,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1006",
+      "name": "Zhongli",
+      "rarity": 5,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/Character_Zhongli_Full_Wish.png/revision/latest?cb=20220507161902",
+      "stats": {
+        "hp": 15000,
+        "atk": 240,
+        "def": 180,
+        "critDmg": 190,
+        "critRate": 12
+      }
+    },
+    {
+      "id": "1007",
+      "name": "Hu Tao",
+      "rarity": 5,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/59/Character_Hu_Tao_Full_Wish.png/revision/latest?cb=20220507160922",
+      "stats": {
+        "hp": 15500,
+        "atk": 290,
+        "def": 190,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1008",
+      "name": "Ayaka",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Kamisato_Ayaka_Card.png/revision/latest?cb=20210607100828",
+      "stats": {
+        "hp": 15800,
+        "atk": 295,
+        "def": 195,
+        "critDmg": 198,
+        "critRate": 13
+      }
+    },
+    {
+      "id": "1009",
+      "name": "Mona",
+      "rarity": 5,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Mona_Card.png/revision/latest?cb=20220725210059",
+      "stats": {
+        "hp": 15600,
+        "atk": 200,
+        "def": 190,
+        "critDmg": 125,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1010",
+      "name": "Nahida",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/4c/Nahida_Card.png/revision/latest?cb=20220926101608",
+      "stats": {
+        "hp": 15400,
+        "atk": 280,
+        "def": 185,
+        "critDmg": 190,
+        "critRate": 13
+      }
+    },
+    {
+      "id": "1011",
+      "name": "Shenhe",
+      "rarity": 5,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Character_Shenhe_Full_Wish.png/revision/latest?cb=20221011032401",
+      "stats": {
+        "hp": 15900,
+        "atk": 295,
+        "def": 195,
+        "critDmg": 130,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1012",
+      "name": "Kazuha",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Kaedehara_Kazuha_Card.png/revision/latest?cb=20210607100841",
+      "stats": {
+        "hp": 15700,
+        "atk": 240,
+        "def": 140,
+        "critDmg": 185,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1013",
+      "name": "Raiden Shogun",
+      "rarity": 5,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Character_Raiden_Shogun_Full_Wish.png/revision/latest?cb=20220507154003",
+      "stats": {
+        "hp": 15900,
+        "atk": 295,
+        "def": 200,
+        "critDmg": 200,
+        "critRate": 15
+      }
+    },{
+      "id": "1014",
+      "name": "Venti",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Character_Venti_Full_Wish.png/revision/latest?cb=20220507131746",
+      "stats": {
+        "hp": 15600,
+        "atk": 285,
+        "def": 190,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1015",
+      "name": "Tartaglia",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/af/Character_Tartaglia_Full_Wish.png/revision/latest?cb=20220507161504",
+      "stats": {
+        "hp": 15800,
+        "atk": 290,
+        "def": 195,
+        "critDmg": 200,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1016",
+      "name": "Kokomi",
+      "rarity": 5,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Character_Sangonomiya_Kokomi_Full_Wish.png/revision/latest?cb=20220507131919",
+      "stats": {
+        "hp": 18000,
+        "atk": 200,
+        "def": 190,
+        "critDmg": 120,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1017",
+      "name": "Wriothesley",
+      "rarity": 5,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/50/Character_Wriothesley_Full_Wish.png/revision/latest?cb=20231018144847",
+      "stats": {
+        "hp": 14300,
+        "atk": 270,
+        "def": 200,
+        "critDmg": 170,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1018",
+      "name": "Chongyun",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/71/Chongyun_Card.png/revision/latest?cb=20220725204909",
+      "stats": {
+        "hp": 13000,
+        "atk": 220,
+        "def": 90,
+        "critDmg": 140,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1019",
+      "name": "Fischl",
+      "rarity": 4,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Fischl_Full_Wish.png/revision/latest?cb=20220507161249",
+      "stats": {
+        "hp": 13500,
+        "atk": 230,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1020",
+      "name": "Noelle",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/eb/Noelle_Card.png/revision/latest?cb=20220725205118",
+      "stats": {
+        "hp": 14000,
+        "atk": 240,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 10
+      }
+    },
+    {
+      "id": "1021",
+      "name": "Ningguang",
+      "rarity": 4,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Ningguang_Card.png/revision/latest?cb=20220725205113",
+      "stats": {
+        "hp": 13500,
+        "atk": 230,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },{
+      "id": "1022",
+      "name": "Albedo",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/51/Character_Albedo_Full_Wish.png/revision/latest?cb=20220507161942",
+      "stats": {
+        "hp": 15500,
+        "atk": 260,
+        "def": 180,
+        "critDmg": 180,
+        "critRate": 12
+      }
+    },
+    {
+      "id": "1023",
+      "name": "Aloy",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2c/Character_Aloy_Full_Wish.png/revision/latest?cb=20220507130247",
+      "stats": {
+        "hp": 15000,
+        "atk": 270,
+        "def": 190,
+        "critDmg": 190,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1024",
+      "name": "Itto",
+      "rarity": 5,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c3/Character_Arataki_Itto_Full_Wish.png/revision/latest?cb=20220507160209",
+      "stats": {
+        "hp": 15800,
+        "atk": 290,
+        "def": 200,
+        "critDmg": 200,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1025",
+      "name": "Eula",
+      "rarity": 5,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/6d/Character_Eula_Full_Wish.png/revision/latest?cb=20221014023702",
+      "stats": {
+        "hp": 15500,
+        "atk": 280,
+        "def": 190,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1026",
+      "name": "Ganyu",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Ganyu_Full_Wish.png/revision/latest?cb=20220713045854",
+      "stats": {
+        "hp": 15800,
+        "atk": 300,
+        "def": 180,
+        "critDmg": 200,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1027",
+      "name": "Jean",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0e/Character_Ganyu_Full_Wish.png/revision/latest?cb=20220713045854",
+      "stats": {
+        "hp": 16000,
+        "atk": 260,
+        "def": 160,
+        "critDmg": 190,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1028",
+      "name": "Alhaitham",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/e4/Character_Alhaitham_Full_Wish.png/revision/latest?cb=20230118030435",
+      "stats": {
+        "hp": 15000,
+        "atk": 280,
+        "def": 170,
+        "critDmg": 180,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1029",
+      "name": "Amber",
+      "rarity": 4,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1c/Character_Amber_Full_Wish.png/revision/latest?cb=20230330114407",
+      "stats": {
+        "hp": 13500,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1030",
+      "name": "Baizhu",
+      "rarity": 5,
+      "element": "Dendro",
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2e/Character_Baizhu_Full_Wish.png/revision/latest?cb=20230504174055",
+      "stats": {
+        "hp": 14500,
+        "atk": 260,
+        "def": 200,
+        "critDmg": 170,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1031",
+      "name": "Barbara",
+      "rarity": 4,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/76/Character_Barbara_Full_Wish.png/revision/latest?cb=20220507160248",
+      "stats": {
+        "hp": 13500,
+        "atk": 220,
+        "def": 90,
+        "critDmg": 140,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1032",
+      "name": "Bennett",
+      "rarity": 4,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Character_Bennett_Full_Wish.png/revision/latest?cb=20220507132108",
+      "stats": {
+        "hp": 13500,
+        "atk": 230,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1033",
+      "name": "Candace",
+      "rarity": 4,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Character_Candace_Full_Wish.png/revision/latest?cb=20221007135324",
+      "stats": {
+        "hp": 13500,
+        "atk": 220,
+        "def": 90,
+        "critDmg": 140,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1034",
+      "name": "Collei",
+      "rarity": 4,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Character_Collei_Full_Wish.png/revision/latest?cb=20220824043515",
+      "stats": {
+        "hp": 13000,
+        "atk": 220,
+        "def": 90,
+        "critDmg": 140,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1035",
+      "name": "Cyno",
+      "rarity": 5,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Character_Cyno_Full_Wish.png/revision/latest/scale-to-width-down/350?cb=20221007135437",
+      "stats": {
+        "hp": 15000,
+        "atk": 260,
+        "def": 160,
+        "critDmg": 190,
+        "critRate": 12
+      }
+    },
+    {
+      "id": "1036",
+      "name": "Dehya",
+      "rarity": 5,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Character_Dehya_Full_Wish.png/revision/latest/scale-to-width-down/350?cb=20230301062353",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1037",
+      "name": "Dori",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/48/Character_Dori_Full_Wish.png/revision/latest?cb=20220909114351",
+      "stats": {
+        "hp": 13500,
+        "atk": 220,
+        "def": 90,
+        "critDmg": 140,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1038",
+      "name": "Faruzan",
+      "rarity": 4,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Character_Faruzan_Full_Wish.png/revision/latest?cb=20221207033630",
+      "stats": {
+        "hp": 13500,
+        "atk": 220,
+        "def": 90,
+        "critDmg": 140,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1039",
+      "name": "Freminet",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Character_Freminet_Full_Wish.png/revision/latest?cb=20230908020238",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1040",
+      "name": "Furina",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Character_Furina_Full_Wish.png/revision/latest?cb=20231108064320",
+      "stats": {
+        "hp": 15500,
+        "atk": 275,
+        "def": 160,
+        "critDmg": 190,
+        "critRate": 12
+      }
+    },
+    {
+      "id": "1041",
+      "name": "Gorou",
+      "rarity": 4,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d1/Character_Gorou_Full_Wish.png/revision/latest?cb=20220507110256",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1042",
+      "name": "Kaeya",
+      "rarity": 4,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8a/Character_Kaeya_Full_Wish.png/revision/latest?cb=20220507113154",
+      "stats": {
+        "hp": 13500,
+        "atk": 230,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1043",
+      "name": "Kamisato Ayato",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Kamisato_Ayato_Full_Wish.png/revision/latest?cb=20221014023913",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1044",
+      "name": "Kaveh",
+      "rarity": 5,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Kaveh_Full_Wish.png/revision/latest?cb=20230504153531",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1045",
+      "name": "Keqing",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Character_Keqing_Full_Wish.png/revision/latest?cb=20220507113259",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1046",
+      "name": "Kirara",
+      "rarity": 4,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/87/Character_Kirara_Full_Wish.png/revision/latest?cb=20230524063826",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1047",
+      "name": "Klee",
+      "rarity": 5,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/88/Character_Klee_Full_Wish.png/revision/latest/scale-to-width-down/350?cb=20220507125530",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1048",
+      "name": "Kujou Sara",
+      "rarity": 4,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/Character_Kujou_Sara_Full_Wish.png/revision/latest?cb=20220507110137",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1049",
+      "name": "Kuki Shinobu",
+      "rarity": 4,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/1f/Character_Kuki_Shinobu_Full_Wish.png/revision/latest?cb=20220621105256",
+      "stats": {
+        "hp": 13500,
+        "atk": 230,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1050",
+      "name": "Layla",
+      "rarity": 4,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Character_Layla_Full_Wish.png/revision/latest/scale-to-width-down/350?cb=20221118140902",
+      "stats": {
+        "hp": 13000,
+        "atk": 230,
+        "def": 100,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1051",
+      "name": "Lisa",
+      "rarity": 4,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Lisa_Full_Wish.png/revision/latest?cb=20220507110102",
+      "stats": {
+        "hp": 14000,
+        "atk": 250,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1052",
+      "name": "Lynette",
+      "rarity": 4,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Lynette_Full_Wish.png/revision/latest?cb=20230827004713",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1053",
+      "name": "Lyney",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a3/Character_Lyney_Full_Wish.png/revision/latest?cb=20230816123559",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1054",
+      "name": "Mika",
+      "rarity": 4,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Character_Mika_Full_Wish.png/revision/latest?cb=20230321232745",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1055",
+      "name": "Navia",
+      "rarity": 5,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Character_Navia_Full_Wish.png/revision/latest?cb=20231222025727",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1056",
+      "name": "Neuvillette",
+      "rarity": 5,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5e/Character_Neuvillette_Full_Wish.png/revision/latest?cb=20230927114253",
+      "stats": {
+        "hp": 15500,
+        "atk": 250,
+        "def": 130,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1057",
+      "name": "Nilou",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/61/Character_Nilou_Full_Wish.png/revision/latest?cb=20221014130045",
+      "stats": {
+        "hp": 15000,
+        "atk": 280,
+        "def": 160,
+        "critDmg": 190,
+        "critRate": 13
+      }
+    },
+    {
+      "id": "1058",
+      "name": "Qiqi",
+      "rarity": 5,
+      "weapon": "Sword",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Qiqi_Full_Wish.png/revision/latest?cb=20220507110008",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1059",
+      "name": "Razor",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Razor_Full_Wish.png/revision/latest?cb=20220507162020",
+      "stats": {
+        "hp": 13500,
+        "atk": 250,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 10
+      }
+    },
+    {
+      "id": "1060",
+      "name": "Rosaria",
+      "rarity": 4,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9b/Character_Rosaria_Full_Wish.png/revision/latest?cb=20220507132654",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },{
+      "id": "1061",
+      "name": "Sayu",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b7/Character_Sayu_Full_Wish.png/revision/latest?cb=20220507130546",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1062",
+      "name": "Heizou",
+      "rarity": 4,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Character_Shikanoin_Heizou_Full_Wish.png/revision/latest?cb=20220713042711",
+      "stats": {
+        "hp": 13000,
+        "atk": 220,
+        "def": 95,
+        "critDmg": 135,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1063",
+      "name": "Sucrose",
+      "rarity": 4,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9e/Character_Sucrose_Full_Wish.png/revision/latest?cb=20220507132952",
+      "stats": {
+        "hp": 12500,
+        "atk": 230,
+        "def": 90,
+        "critDmg": 140,
+        "critRate": 8
+      }
+    },
+    {
+      "id": "1064",
+      "name": "Thoma",
+      "rarity": 4,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Character_Thoma_Full_Wish.png/revision/latest?cb=20220507130334",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1065",
+      "name": "Tighnari",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Character_Tighnari_Full_Wish.png/revision/latest?cb=20220824042927",
+      "stats": {
+        "hp": 15500,
+        "atk": 270,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1066",
+      "name": "Wanderer",
+      "rarity": 5,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Character_Wanderer_Full_Wish.png/revision/latest?cb=20221209194443",
+      "stats": {
+        "hp": 15500,
+        "atk": 240,
+        "def": 170,
+        "critDmg": 195,
+        "critRate": 14
+      }
+    },
+    {
+      "id": "1067",
+      "name": "Xiangling",
+      "rarity": 4,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Character_Xiangling_Full_Wish.png/revision/latest?cb=20220507154040",
+      "stats": {
+        "hp": 13500,
+        "atk": 250,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 10
+      }
+    },
+    {
+      "id": "1068",
+      "name": "Xiao",
+      "rarity": 5,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/5d/Character_Xiao_Full_Wish.png/revision/latest?cb=20220507154523",
+      "stats": {
+        "hp": 16000,
+        "atk": 300,
+        "def": 200,
+        "critDmg": 200,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1069",
+      "name": "Xinyan",
+      "rarity": 4,
+      "weapon": "Claymore",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Character_Xinyan_Full_Wish.png/revision/latest?cb=20220507161424",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1070",
+      "name": "Yae Miko",
+      "rarity": 5,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/49/Character_Yae_Miko_Full_Wish.png/revision/latest?cb=20220507110641",
+      "stats": {
+        "hp": 16000,
+        "atk": 270,
+        "def": 200,
+        "critDmg": 200,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1071",
+      "name": "Yanfei",
+      "rarity": 4,
+      "weapon": "Catalyst",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b3/Character_Yanfei_Full_Wish.png/revision/latest?cb=20220507131829",
+      "stats": {
+        "hp": 13500,
+        "atk": 230,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 10
+      }
+    },
+    {
+      "id": "1072",
+      "name": "Yaoyao",
+      "rarity": 4,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/62/Character_Yaoyao_Full_Wish.png/revision/latest?cb=20230118030129",
+      "stats": {
+        "hp": 13000,
+        "atk": 240,
+        "def": 95,
+        "critDmg": 145,
+        "critRate": 9
+      }
+    },
+    {
+      "id": "1073",
+      "name": "Yoimiya",
+      "rarity": 5,
+      "weapon": "Bow",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Yoimiya_Full_Wish.png/revision/latest?cb=20220507125627",
+      "stats": {
+        "hp": 14000,
+        "atk": 260,
+        "def": 150,
+        "critDmg": 170,
+        "critRate": 15
+      }
+    },
+    {
+      "id": "1074",
+      "name": "Yun Jin",
+      "rarity": 4,
+      "weapon": "Polearm",
+      "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Yun_Jin_Full_Wish.png/revision/latest?cb=20220507110218",
+      "stats": {
+        "hp": 13500,
+        "atk": 250,
+        "def": 100,
+        "critDmg": 150,
+        "critRate": 10
+      }
+    }
+  ],
+  "character Icons": [
+    {
+      "Name": "Yelan",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/yelan/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Beidou",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/beidou/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Xingqiu",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/xingqiu/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "diona",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/diona/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Diluc",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/diluc/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Zhongli",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/zhongli/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Hu Tao",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/hu_tao/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Ayaka",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kamisato_ayaka/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Mona",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/mona/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Nahida",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/nahida/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Shenhe",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/shenhe/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kazuha",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kaedehara_kazuha/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Raiden Shogun",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/raiden_shogun/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Venti",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/venti/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Tartaglia",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/tartaglia/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kokomi",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/sangonomiya_kokomi/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Wriothesley",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/wriothesley/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Chongyun",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/chongyun/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Fischl",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/fischl/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Noelle",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/noelle/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Ningguang",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/ningguang/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Albedo",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/albedo/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Aloy",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/aloy/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Itto",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/arataki_itto/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Eula",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/eula/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Ganyu",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/ganyu/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Jean",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/jean/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Alhaitham",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/alhaitham/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Amber",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/amber/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Baizhu",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/baizhu/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Barbara",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/barbara/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Bennett",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/bennett/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Candace",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/candace/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Collei",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/collei/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Cyno",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/cyno/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Dehya",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/dehya/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Dori",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/dori/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Faruzan",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/faruzan/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Freminet",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/freminet/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Furina",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/furina/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Gorou",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/gorou/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kaeya",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kaeya/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kamisato Ayato",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kamisato_ayato/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kaveh",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kaveh/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Keqing",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/keqing/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kirara",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kirara/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Klee",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/klee/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kujou Sara",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kujou_sara/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Kuki Shinobu",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/kuki_shinobu/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Layla",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/layla/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Lisa",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/lisa/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Lynette",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/lynette/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Lyney",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/lyney/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Mika",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/mika/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Navia",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/navia/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Neuvillette",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/neuvillette/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Nilou",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/nilou/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Qiqi",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/qiqi/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Razor",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/razor/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Rosaria",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/rosaria/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Sayu",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/sayu/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Heizou",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/shikanoin_heizou/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Sucrose",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/sucrose/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Thoma",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/thoma/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Tighnari",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/tighnari/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Wanderer",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/wanderer/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Xiangling",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/xiangling/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Xiao",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/xiao/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Xinyan",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/xinyan/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Yae Miko",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/yae_miko/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Yanfei",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/yanfei/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Yaoyao",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/yaoyao/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Yoimiya",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/yoimiya/image.png?strip=all&quality=100&w=160"
+    },
+    {
+      "Name": "Yun Jin",
+      "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/yun_jin/image.png?strip=all&quality=100&w=160"
+    }
+  ]
+}

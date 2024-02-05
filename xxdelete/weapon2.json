@@ -1,0 +1,536 @@
+{
+    "weapons": [
+      {
+        "id": "2000",
+        "name": "Aquila Favonia",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/aquila_favonia.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1328,
+          "def": 41,
+          "critRate": 61,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2001",
+        "name": "Freedom-Sworn",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/freedomsworn.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1408,
+          "def": 28,
+          "critRate": 83,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2002",
+        "name": "Haran Geppaku Futsu",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/haran_geppaku_futsu.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1710,
+          "def": 22,
+          "critRate": 72,
+          "critDmg": 9
+        }
+      },
+      {
+        "id": "2003",
+        "name": "Key of Khaj-Nisut",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/key_of_khajnisut.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1590,
+          "def": 32,
+          "critRate": 65,
+          "critDmg": 9
+        }
+      },
+      {
+        "id": "2004",
+        "name": "Light of Foliar Incision",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/light_of_foliar_incision.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1458,
+          "def": 25,
+          "critRate": 67,
+          "critDmg": 9
+        }
+      },
+      {
+        "id": "2005",
+        "name": "Mistsplitter Reforged",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/mistsplitter_reforged.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1554,
+          "def": 21,
+          "critRate": 74,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2006",
+        "name": "Primordial Jade Cutter",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/primordial_jade_cutter.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1414,
+          "def": 20,
+          "critRate": 72,
+          "critDmg": 9
+        }
+      },
+      {
+        "id": "2007",
+        "name": "Skyward Blade",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/skyward_blade.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1292,
+          "def": 34,
+          "critRate": 84,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2008",
+        "name": "Splendor of Tranquil Waters",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/splendor_of_tranquil_waters.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1681,
+          "def": 45,
+          "critRate": 73,
+          "critDmg": 9
+        }
+      },
+      {
+        "id": "2009",
+        "name": "Summit Shaper",
+        "rarity": 5,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/summit_shaper.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1736,
+          "def": 49,
+          "critRate": 81,
+          "critDmg": 8
+        }
+      },
+      {
+        "id": "2010",
+        "name": "Amenoma Kageuchi",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/amenoma_kageuchi.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 753,
+          "def": 30,
+          "critRate": 65,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2011",
+        "name": "Blackcliff Longsword",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/blackcliff_longsword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 775,
+          "def": 19,
+          "critRate": 59,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2012",
+        "name": "Cinnabar Spindle",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/cinnabar_spindle.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 899,
+          "def": 18,
+          "critRate": 55,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2013",
+        "name": "Favonius Sword",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/favonius_sword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 728,
+          "def": 24,
+          "critRate": 51,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2014",
+        "name": "Festering Desire",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/festering_desire.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 897,
+          "def": 29,
+          "critRate": 58,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2015",
+        "name": "Finale of the Deep",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/finale_of_the_deep.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 878,
+          "def": 30,
+          "critRate": 66,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2016",
+        "name": "Fleuve Cendre Ferryman",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/fleuve_cendre_ferryman.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 926,
+          "def": 20,
+          "critRate": 52,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2017",
+        "name": "Iron Sting",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/iron_sting.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 766,
+          "def": 21,
+          "critRate": 55,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2018",
+        "name": "Kagotsurube Isshin",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/kagotsurube_isshin.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 1033,
+          "def": 24,
+          "critRate": 52,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2019",
+        "name": "Lion's Roar",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/lions_roar.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 891,
+          "def": 23,
+          "critRate": 51,
+          "critDmg": 8
+        }
+      },
+      {
+        "id": "2020",
+        "name": "Prototype Rancour",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/prototype_rancour.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 979,
+          "def": 21,
+          "critRate": 62,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2021",
+        "name": "Royal Longsword",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/royal_longsword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 708,
+          "def": 30,
+          "critRate": 57,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2022",
+        "name": "Sacrificial Sword",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/sacrificial_sword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 815,
+          "def": 10,
+          "critRate": 65,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2023",
+        "name": "Sapwood Blade",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/sapwood_blade.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 949,
+          "def": 20,
+          "critRate": 53,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2024",
+        "name": "Sword of Descension",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/sword_of_descension.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 730,
+          "def": 30,
+          "critRate": 56,
+          "critDmg": 8
+        }
+      },
+      {
+        "id": "2025",
+        "name": "Sword of Narzissenkreuz",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/sword_of_narzissenkreuz.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 972,
+          "def": 11,
+          "critRate": 52,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2026",
+        "name": "The Alley Flash",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/the_alley_flash.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 861,
+          "def": 18,
+          "critRate": 64,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2027",
+        "name": "The Black Sword",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/the_black_sword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 934,
+          "def": 30,
+          "critRate": 55,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2028",
+        "name": "The Dockhand's Assistant",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/the_dockhands_assistant.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 752,
+          "def": 30,
+          "critRate": 64,
+          "critDmg": 7
+        }
+      },
+      {
+        "id": "2029",
+        "name": "The Flute",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/the_flute.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 989,
+          "def": 11,
+          "critRate": 61,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2030",
+        "name": "Toukabou Shigure",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/toukabou_shigure.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 725,
+          "def": 24,
+          "critRate": 59,
+          "critDmg": 6
+        }
+      },
+      {
+        "id": "2031",
+        "name": "Wolf-Fang",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/wolffang.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 981,
+          "def": 19,
+          "critRate": 60,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2032",
+        "name": "Xiphos' Moonlight",
+        "rarity": 4,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/xiphos_moonlight.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 50,
+          "atk": 869,
+          "def": 27,
+          "critRate": 52,
+          "critDmg": 8
+        }
+      },
+      {
+        "id": "2033",
+        "name": "Dark Iron Sword",
+        "rarity": 3,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/dark_iron_sword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 30,
+          "atk": 326,
+          "def": 16,
+          "critRate": 37,
+          "critDmg": 3
+        }
+      },
+      {
+        "id": "2034",
+        "name": "Fillet Blade",
+        "rarity": 3,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/fillet_blade.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 30,
+          "atk": 252,
+          "def": 20,
+          "critRate": 31,
+          "critDmg": 5
+        }
+      },
+      {
+        "id": "2035",
+        "name": "Harbinger of Dawn",
+        "rarity": 3,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/harbinger_of_dawn.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 30,
+          "atk": 293,
+          "def": 15,
+          "critRate": 30,
+          "critDmg": 3
+        }
+      },
+      {
+        "id": "2036",
+        "name": "Skyrider Sword",
+        "rarity": 3,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/skyrider_sword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 30,
+          "atk": 328,
+          "def": 18,
+          "critRate": 33,
+          "critDmg": 3
+        }
+      },
+      {
+        "id": "2037",
+        "name": "Traveler's Handy Sword",
+        "rarity": 3,
+        "type": "Sword",
+        "image": "https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/weapons/travelers_handy_sword.png?strip=all&quality=100&w=140",
+        "stats": {
+          "hp": 30,
+          "atk": 326,
+          "def": 19,
+          "critRate": 43,
+          "critDmg": 4
+        }
+      }
+    ]
+  }
