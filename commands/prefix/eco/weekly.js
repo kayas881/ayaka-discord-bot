@@ -31,7 +31,7 @@ module.exports = {
 
     if (now - lastWeeklyClaim < cooldown) {
       message.reply(
-        "You have already claimed your daily rewards today. Try again later."
+        "You have already claimed your weekly rewards today. Try again later."
       );
       return;
     }
