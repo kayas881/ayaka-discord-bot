@@ -31,10 +31,13 @@ module.exports = {
     const now = Date.now();
     const lastDailyClaim = user.lastDailyClaim || 0;
     const cooldown = 24 * 60 * 60 * 1000; // 24 hours cooldown in milliseconds
-
+//check how much time is remaining to collect new daily rewards
+    const remainingTime = cooldown - (now - lastDailyClaim);
+    const hours = Math.floor(remainingTime / 3600000);
+    const minutes = Math.floor((remainingTime % 3600000) / 60000);
     if (now - lastDailyClaim < cooldown) {
       message.reply(
-        "You have already claimed your daily rewards today. Try again later."
+        `You have already claimed your daily rewards. You can claim them again in ${hours} hours and ${minutes} minutes.`
       );
       return;
     }

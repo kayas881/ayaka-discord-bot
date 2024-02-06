@@ -28,10 +28,14 @@ module.exports = {
     const now = Date.now();
     const lastWeeklyClaim = user.lastWeeklyClaim;
     const cooldown = 7 * 24 * 60 * 60 * 1000; // 7 days cooldown in milliseconds
-
+//check how much time is remaining to collect new weekly rewards
+    const remainingTime = cooldown - (now - lastWeeklyClaim);
+    const days = Math.floor(remainingTime / 86400000);
+    const hours = Math.floor((remainingTime % 86400000) / 3600000);
+    const minutes = Math.floor((remainingTime % 3600000) / 60000);
     if (now - lastWeeklyClaim < cooldown) {
       message.reply(
-        "You have already claimed your weekly rewards today. Try again later."
+        `You have already claimed your weekly rewards. You can claim them again in ${days} days, ${hours} hours and ${minutes} minutes.`
       );
       return;
     }
