@@ -6,41 +6,112 @@
       "hp": 561772.19,
       "atk": 1700.9,
       "def": 1000,
+      "rewards": {
+        "mora_min": 20000,
+        "mora_max": 30000,
+        "primo_min": 40,
+        "primo_max": 60
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3004",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Enemy_Andrius.png/revision/latest?cb=20210426192800",
       "cooldown": 3 
     },
     {
       "id": "5002",
       "name": "Maguu Kenki",
-      "hp": 	535302,
+      "hp": 535302,
       "atk": 1200,
       "def": 800,
+      "rewards": {
+        "mora_min": 15000,
+        "mora_max": 25000,
+        "primo_min": 30,
+        "primo_max": 50
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3007",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Enemy_Maguu_Kenki.png/revision/latest?cb=20211005182254",
       "cooldown": 4
     },
     {
       "id": "5003",
       "name": "Oceanid",
-      "hp": 308700	,
+      "hp": 308700,
       "atk": 1400,
       "def": 1200,
+      "rewards": {
+        "mora_min": 10000,
+        "mora_max": 20000,
+        "primo_min": 20,
+        "primo_max": 40
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3001",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Enemy_Rhodeia_of_Loch.png/revision/latest?cb=20210718074221",
       "cooldown": 4
-    },{
+    },
+    {
       "id": "5004",
       "name": "Golden Wolflord",
       "hp": 465520,
       "atk": 1200,
       "def": 1000,
+      "rewards": {
+        "mora_min": 15000,
+        "mora_max": 25000,
+        "primo_min": 30,
+        "primo_max": 50
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3006",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Enemy_Golden_Wolflord.png/revision/latest?cb=20211113043309",
       "cooldown": 4
     },
     {
       "id": "5005",
       "name": "Coral Defenders",
-      "hp": 565520	,
+      "hp": 565520,
       "atk": 800,
       "def": 800,
+      "rewards": {
+        "mora_min": 10000,
+        "mora_max": 20000,
+        "primo_min": 20,
+        "primo_max": 40
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3008",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/60/Enemy_Bathysmal_Vishap_Herd.png/revision/latest?cb=20230223103220",
       "cooldown": 4
     },
@@ -50,30 +121,89 @@
       "hp": 630886.09,
       "atk": 1000,
       "def": 8000,
+      "rewards": {
+        "mora_min": 20000,
+        "mora_max": 30000,
+        "primo_min": 40,
+        "primo_max": 60
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3004",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/91/Enemy_Dvalin.png/revision/latest?cb=20210426200736",
       "cooldown": 4
-    },{
+    },
+    {
       "id": "5007",
       "name": "Azhdaha",
       "hp": 6323544.38,
       "atk": 1200,
       "def": 1000,
+      "rewards": {
+        "mora_min": 20000,
+        "mora_max": 30000,
+        "primo_min": 40,
+        "primo_max": 60
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3002",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/Enemy_Azhdaha.png/revision/latest?cb=20210508225637",
       "cooldown": 4
-    },{
+    },
+    {
       "id": "5008",
       "name": "Childe",
       "hp": 367651.22,
       "atk": 1500,
       "def": 1200,
+      "rewards": {
+        "mora_min": 15000,
+        "mora_max": 25000,
+        "primo_min": 30,
+        "primo_max": 50
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3007",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b6/Enemy_Childe.png/revision/latest?cb=20210703134306",
       "cooldown": 4
-    },{
+    },
+    {
       "id": "5009",
       "name": "Guardian",
       "hp": 587360.29,
       "atk": 1200,
       "def": 1000,
+      "rewards": {
+        "mora_min": 20000,
+        "mora_max": 30000,
+        "primo_min": 40,
+        "primo_max": 60
+      },
+      "drops": {
+        "items": [
+          {
+            "id": "3004",
+            "chance": 0.5
+          }
+        ]
+      },
       "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Enemy_Warden_of_the_Last_Oasis.png/revision/latest?cb=20230414081250",
       "cooldown": 4
     }

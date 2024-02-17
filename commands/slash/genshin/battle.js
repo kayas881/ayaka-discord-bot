@@ -4,6 +4,7 @@ const User = require("./../../../schemas/currencySchema");
 const { simulateBattle } = require("./../../../struct/battleUtils.js");
 const { EmbedBuilder } = require("discord.js");
 const superagent = require("superagent");
+const itemData = require("./../../../Wishjsons/items.json")
 const {
   calculateExperienceGained,
   updateARRank,
@@ -101,17 +102,57 @@ module.exports = {
         embeds: [battleProgressEmbed],
       });
     });
+    let itemDrop = null;
 
     // Handle the case when the user wins
     if (battleResult === "victory") {
       // Generate random amounts of primogems and mora
-      const primogemsReward = Math.floor(Math.random() * (50 - 20 + 1) + 20);
-      const moraReward = Math.floor(Math.random() * (1000 - 500 + 1) + 500);
+      // const primogemsReward = Math.floor(Math.random() * (50 - 20 + 1) + 20);
+      // const moraReward = Math.floor(Math.random() * (1000 - 500 + 1) + 500);
+      const primogemsReward = Math.floor(Math.random() * (boss.rewards.primo_min - boss.rewards.primo_max + 1) + boss.rewards.primo_max);
+      const moraReward = Math.floor(Math.random() * (boss.rewards.mora_min - boss.rewards.mora_max + 1) + boss.rewards.mora_max);
+
 
       // Update the user's currency
       user.primogems += primogemsReward;
       user.mora += moraReward;
 
+
+     // Check if the boss drops an item
+
+if (boss.drops.items.length > 0) {
+  const drop = boss.drops.items[0]; // Assuming there's only one item in the array
+  if (Math.random() <= drop.chance) {
+    itemDrop = drop.id; // The boss drops the item
+
+    // Get the item details from the itemData
+    const item = itemData.items.find((i) => i.id === itemDrop);
+
+    // Check if the item already exists in the user's inventory
+    let itemExists = false;
+    for (let i = 0; i < user.items.length; i++) {
+      if (user.items[i].itemId === item.id) {
+        user.items[i].count += 1;
+        itemExists = true;
+        break;
+      }
+    }
+
+    // If the item doesn't exist in the user's inventory, add it
+    if (!itemExists) {
+      user.items.push({
+        itemName: item.name,
+        itemId: item.id,
+        count: 1,
+      });
+    }
+  }
+}
+      // Save the updated user data
+      await user.save();
+
+  // Save the updated user data
+  await user.save();
       // Save the updated user data
       await user.save();
 
@@ -130,8 +171,15 @@ module.exports = {
             name: "Mora:",
             value: `<:Mora:1098674469364580363> ${moraReward}`,
             inline: true,
-          }
+          },
+        
         );
+        if (itemDrop) {
+          
+          const item = boss.drops.items.find((i) => i.id === itemDrop);
+          const itemName = itemData.items.find((i) => i.id === itemDrop).name;
+          resultEmbed.addFields({name:"Item Drop",value: `${itemName}`, inline: true});
+        }
     } else
       resultEmbed
         .setTitle(`Aya pats ${interaction.user.username}`)
@@ -139,7 +187,7 @@ module.exports = {
         .setDescription("You were defeated by the boss. Better luck next time!")
         .setImage(body.link)
         .setTimestamp();
-
+      
     // Edit the loading message with the final result
     await loadingMessage.edit({
       embeds: [resultEmbed],
