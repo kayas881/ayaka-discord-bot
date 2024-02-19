@@ -1,7 +1,7 @@
 {
   "name": "discordjs-v14-bot-template",
   "version": "14.0.0",
-  "description": "A Discord Bot template built by T.F.A#7524!",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node .",
