@@ -7,7 +7,8 @@ const {
 const config = require("./config/config");
 const colors = require("colors");
 const { regenerateAllResin, regenerateResin } = require("./struct/ResinUtils");
-
+const express = require('express');
+const app = express();
 // Creating a new client:
 const client = new Client({
   intents: [
@@ -91,5 +92,5 @@ process.on("unhandledRejection", async (err, promise) => {
 });
 
 const listener = app.listen(process.env.PORT || 8000, function() {
-	console.log('Your app is listening on port ' + listener.address().port);
+  console.log('Your app is listening on port ' + listener.address().port);
 });
