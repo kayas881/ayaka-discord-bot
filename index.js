@@ -36,6 +36,7 @@ const client = new Client({
       },
     ],
     status: "idle",
+  
   },
 });
 
@@ -89,6 +90,6 @@ process.on("unhandledRejection", async (err, promise) => {
   console.error(promise);
 });
 
-// const listener = app.listen(process.env.PORT || 8000, function() {
-// 	console.log('Your app is listening on port ' + listener.address().port);
-// });
+const listener = app.listen(process.env.PORT || 8000, function() {
+	console.log('Your app is listening on port ' + listener.address().port);
+});
