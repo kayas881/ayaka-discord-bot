@@ -186,7 +186,6 @@ module.exports = {
       let itemExists = false;
       for (let i = 0; i < user.items.length; i++) {
         if (user.items[i].itemId === item.id) {
-          // Changed item.name to item.id
           user.items[i].count += 1;
           itemExists = true;
           break;

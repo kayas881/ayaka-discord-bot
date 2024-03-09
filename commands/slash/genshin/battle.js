@@ -107,8 +107,6 @@ module.exports = {
     // Handle the case when the user wins
     if (battleResult === "victory") {
       // Generate random amounts of primogems and mora
-      // const primogemsReward = Math.floor(Math.random() * (50 - 20 + 1) + 20);
-      // const moraReward = Math.floor(Math.random() * (1000 - 500 + 1) + 500);
       const primogemsReward = Math.floor(Math.random() * (boss.rewards.primo_min - boss.rewards.primo_max + 1) + boss.rewards.primo_max);
       const moraReward = Math.floor(Math.random() * (boss.rewards.mora_min - boss.rewards.mora_max + 1) + boss.rewards.mora_max);
 
@@ -150,7 +148,6 @@ if (boss.drops.items.length > 0) {
 }
       // Save the updated user data
       await user.save();
-
   // Save the updated user data
   await user.save();
       // Save the updated user data
@@ -160,6 +157,7 @@ if (boss.drops.items.length > 0) {
       resultEmbed
         .setColor("#00FF00") // Set the color for the victory
         .setTitle("Congratulations!")
+        .setThumbnail(boss.image)
         .setDescription("You have defeated the boss!, You got:")
         .addFields(
           {
