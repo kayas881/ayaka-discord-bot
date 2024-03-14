@@ -50,6 +50,13 @@ module.exports = {
         ? user.equippedWeapon[0].name
         : "no equipped weapon";
 
+        const name = user.name;
+// Check if the 'name' field exists, if not, set it to message.author.username
+if (!user.name) {
+  user.name = message.author.username;
+  await user.save();
+}
+
     const fontFamily = "BlockHead";
     const fontSize = 48;
     const titleFontFamily = "Franchise Free";
@@ -81,11 +88,11 @@ module.exports = {
     ctx.shadowColor = "#000000";
     ctx.shadowBlur = 10;
     // In your balance command
-    ctx.fillText(user.username + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
-    ctx.strokeText(user.username + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
+    ctx.fillText(name + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
+    ctx.strokeText(name + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
     // In your balance command
-    ctx.fillText(user.username + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
-    ctx.strokeText(user.username + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
+    ctx.fillText(name + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
+    ctx.strokeText(name + "'s Aya Profile", 200, 50); // Use user.username instead of message.author.username
 
     ctx.font = `38px ${statsFontFamily}`;
 

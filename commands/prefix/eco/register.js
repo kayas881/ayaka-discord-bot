@@ -19,6 +19,7 @@ module.exports = {
     }
 
     const newUser = new User({
+      name: message.author.username,
       username: message.author.username,
       userId: message.author.id,
       rank: 1,

@@ -95,7 +95,7 @@ client.on("messageCreate", async (message) => {
   if (message.channel.type === "DM") return;
 
   try {
-    let user = await User.findOne({ username: message.author.username });
+    let user = await User.findOne({ userId: message.author.id });
 
     if (!user) {
       return;

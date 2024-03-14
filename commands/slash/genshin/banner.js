@@ -38,20 +38,19 @@ module.exports = {
     DEFAULT_MEMBER_PERMISSIONS: "", // User permissions needed
   },
   async autocomplete(interaction) {
+    const user = await User.findOne({ userId: interaction.user.id });
     const focusedOption = interaction.options.getFocused(true);
     const itemType = interaction.options.getString("item_type").toLowerCase();
 
     let choices;
 
     if (itemType === "banner") {
-      choices = bannersData.banners.map((banner) => banner.name);
-    } else if (itemType === "color") {
-      // Assume you have a colorsData object with the necessary data
-      choices = bannersData.colors.map((color) => color.name);
-    } else {
+      choices = user.inventory.filter((i) => i.itemType === "banner").map(i => i.itemName);
+  } else if (itemType === "color") {
+      choices = user.inventory.filter((i) => i.itemType === "color").map(i => i.itemName);
+  } else {
       return;
-    }
-
+  }
     const filtered = choices
       .filter((choice) => choice.toLowerCase().startsWith(focusedOption.value))
       .slice(0, 25);

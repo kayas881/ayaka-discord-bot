@@ -73,6 +73,7 @@ const equippedWeaponSchema = new mongoose.Schema({
   activeRefinement: { type: Number, default: 0 },
 });
 const currencySchema = new mongoose.Schema({
+  name: String,
   username: String,
   userId: String,
   mora: { type: Number, default: 0 },

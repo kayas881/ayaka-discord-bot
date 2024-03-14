@@ -95,9 +95,9 @@ module.exports = {
       const maxUsernameLength = 10; // You can adjust this based on your design
 
       const truncatedUsername =
-        user.username.length > maxUsernameLength
-          ? user.username.substring(0, maxUsernameLength) + "..."
-          : user.username;
+        user.name.length > maxUsernameLength
+          ? user.name.substring(0, maxUsernameLength) + "..."
+          : user.name;
 
    ctx.fillStyle = `${userColor}`;
       // ctx.fillStyle = "#e451f5";
@@ -108,12 +108,6 @@ module.exports = {
 
       // Draw Adventure Rank
       ctx.fillText(`AR ${user.rank}`, x + 60, y + 40);
-
-      // Draw Stats
-      const totalATK = user.totalATK;
-      const totalHP = user.totalHP;
-
-      ctx.fillText(`ATK: ${totalATK} | HP: ${totalHP}`, x + 175, y + 30);
 
       // Move to the next row or column
       if (column === 0 && index === 4) {
