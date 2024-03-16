@@ -58,25 +58,25 @@ module.exports = {
       await updateARRank(message, username, experienceGained, message.channel);
       treasureMap.count--;
       fortuneSlip.count--;
-    } 
+    } else {
+      treasureMap.count--;
+    }
+    
     // Add rewards to the user's currency
     user.mora += rewards.mora;
     user.primogems += rewards.primogems;
     const username = message.author.username;
     const experienceGained = 100; // Replace with the actual experience gained
     await updateARRank(message, username, experienceGained, message.channel);
-    // Decrement the treasure map count
-    treasureMap.count--;
-
-    // Remove the treasure map if the count is zero
-    if (treasureMap.count === 0) {
-      user.items = user.items.filter((item) => item.itemId !== "3003");
-    }
-    if (fortuneSlip && fortuneSlip.count === 0) {
-      user.items = user.items.filter((item) => item.itemId !== "3006");
-    }
-    // Save the updated user data after removing the treasure map
-    await user.save();
+// Remove the treasure map if the count is zero
+if (treasureMap.count <= 0) {
+  user.items = user.items.filter((item) => item.itemId !== "3003");
+}
+if (fortuneSlip && fortuneSlip.count <= 0) {
+  user.items = user.items.filter((item) => item.itemId !== "3006");
+}
+// Save the updated user data after removing the treasure map
+await user.save();
 
     // Edit the finding treasure message to display the results
     findingTreasureEmbed
