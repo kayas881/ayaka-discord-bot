@@ -130,11 +130,11 @@ client.on("messageCreate", async (message) => {
     const maxXP = 10;
 
     // Add XP for each message sent by the user
-    const username = message.author.username;
+    const userId = message.author.id;
     const experienceGained = Math.floor(
       Math.random() * (maxXP - minXP + 1) + minXP
     );
-    await updateARRank(message, username, experienceGained, message.channel);
+    await updateARRank(message, userId, experienceGained, message.channel);
     user.userXpLimit += experienceGained;
     await user.save();
   } catch (error) {
