@@ -103,9 +103,9 @@ function getXPToLevelUp(rank, experience) {
 
 // Function to update user's AR rank based on experience gained
 // Function to update user's AR rank based on experience gained
-async function updateARRank(message, username, experienceGained, channel) {
+async function updateARRank(message, userId, experienceGained, channel) {
   try {
-    let user = await User.findOne({ username: message.author.username });
+    let user = await User.findOne({ userId: userId });
 
     if (!user) {
       console.log(`User with ID ${user} not found.`);
@@ -189,18 +189,20 @@ function getRankRewards(rank) {
 }
 
 // Function to grant rewards to the user
+// Function to grant rewards to the user
 async function grantRewardsToUser(user, rewards) {
-  // Implement the logic to grant rewards to the user (e.g., update user's inventory, currency, etc.)
-  // For example:
+  try {
+    // Grant Primogems
+    user.primogems += rewards.primogems;
 
-  // Grant Primogems
-  user.primogems += rewards.primogems;
+    // Grant Mora
+    user.mora += rewards.mora;
 
-  // Grant Mora
-  user.mora += rewards.mora;
-
-  // Save the updated user document
-  await user.save();
+    // Save the updated user document
+    await user.save();
+  } catch (error) {
+    console.error("Error granting rewards to user:", error);
+  }
 }
 
 async function increaseExperience(user, xpAmount = 0) {
