@@ -6,7 +6,7 @@ const { registerFont } = require("canvas");
 const weaponData = require("./../../../Wishjsons/weapons.json");
 const characterData = require("./../../../Wishjsons/characters.json");
 const path = require('path');
-
+const GuildSettings = require("./../../../schemas/GuildSchema");
 const blockHeadFontPath = path.resolve(__dirname, './../../../BlockHead_bold.ttf');
 const franchiseFreeFontPath = path.resolve(__dirname, './../../../Franchise-Free-Bold.ttf');
 const mangoldFontPath = path.resolve(__dirname, './../../../MANGOLD.ttf');
@@ -27,9 +27,10 @@ module.exports = {
   owner: false,
   run: async (client, message, args) => {
     let user = await User.findOne({ username: message.author.username });
+    const guild = await GuildSettings.findOne({ guildId: message.guild.id });
     if (!user) {
       message.reply(
-        "You are not registered in the database. Use the !register command to get started!"
+        `You are not registered in the database. Use the  ${guild.prefix} register command to get started!`
       );
       return;
     }

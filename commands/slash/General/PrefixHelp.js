@@ -1,6 +1,8 @@
 const Discord = require("discord.js");
 const fs = require("fs");
 const path = require("path");
+const GuildSettings = require("./../../../schemas/GuildSchema");
+
 function getCommandFiles(dir, fileList = []) {
   const files = fs.readdirSync(dir);
 
@@ -37,6 +39,7 @@ module.exports = {
   category: "general",
   run: async (client, interaction, config, db) => {
     const user = await User.findOne({ userId: interaction.user.id });
+    const guild = await GuildSettings.findOne({ guildId: interaction.guild.id });
     // Get all command files
     const commandFiles = getCommandFiles(
       path.join(__dirname, "./../../../commands/prefix")
@@ -77,7 +80,7 @@ module.exports = {
       embed.setFields([]);
       for (const command of commands) {
         embed.addFields({
-          name: `• **${command.config.name}**`,
+          name: `• **${guild.prefix} ${command.config.name}**`,
           value: command.config.description,
         });
       }

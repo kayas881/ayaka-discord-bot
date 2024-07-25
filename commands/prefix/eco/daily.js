@@ -6,6 +6,7 @@ const {
   calculateExperienceGained,
 } = require("./../../../struct/xputills"); // Import the calculateExperienceGained function
 const emojis = require("./../../../utilitiesJsons/emojis.json");
+const GuildSettings = require("./../../../schemas/GuildSchema");
 module.exports = {
   config: {
     name: "daily",
@@ -16,13 +17,14 @@ module.exports = {
   owner: false,
   run: async (client, message, args, prefix, config, db, interaction) => {
     const user = await User.findOne({ username: message.author.username });
+    const guild = await GuildSettings.findOne({ guildId: message.guild.id });
     // const primogemIcon = "<:Primogem:1098674584825376829>";
     // const moraIcon = "<:Mora:1098674469364580363>";
     // const xpIcon = "<:Item_Adventure_EXP:1175741402462818355>";
     // const resinIcon = "<:FragileResin:1098674371612114974>";
     if (!user) {
       message.reply(
-        "You are not registered in the database. Use the !register command to register."
+        `You are not registered in the database. Use the ${guild.prefix} register command to register.`
       );
       return;
     }

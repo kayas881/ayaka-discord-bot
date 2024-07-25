@@ -1,5 +1,5 @@
 const { EmbedBuilder } = require("discord.js");
-
+const GuildSettings = require("./../../../schemas/GuildSchema.js");
 module.exports = {
   config: {
     name: "prefix",
@@ -9,7 +9,6 @@ module.exports = {
   permissions: ['Administrator'],
   owner: false,
   run: async (client, message, args, prefix, config, db) => {
-
     if (!args[0]) return message.reply({ embeds: [
       new EmbedBuilder()
         .setTitle("Missing argument")

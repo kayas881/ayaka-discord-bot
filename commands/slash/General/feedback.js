@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const { EmbedBuilder } = require('discord.js');
 const User = require('./../../../schemas/currencySchema')
+const GuildSettings = require("./../../../schemas/GuildSchema");
 // Define the feedback schema
 const Feedback = require('./../../../schemas/feedbackSchema')
 module.exports = {
@@ -37,13 +38,14 @@ module.exports = {
         const newFeedback = new Feedback({username, userId, feedback, week, year });
         await newFeedback.save();
         let user = await User.findOne({ username: interaction.user.username });
+        const guild = await GuildSettings.findOne({ guildId: message.guild.id });
         console.log("mora:", user.mora, "primogems:", user.primogems)
         const moraReward = 3000;
         const primogemsReward = 300;
         
         // If user doesn't exist, create a new one
         if (!user) {
-          return interaction.reply("you are not registered in the database so you can't get the rewards. Please use the prefix register command to register yourself in the database.")
+          return interaction.reply(`you are not registered in the database so you can't get the rewards. Please use the ${guild.prefix} register command to register yourself in the database.`)
         }
         
         user.mora += moraReward;

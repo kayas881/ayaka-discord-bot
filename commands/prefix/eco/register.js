@@ -11,6 +11,7 @@ module.exports = {
   owner: false,
   run: async (client, message, args, prefix, config, db, interaction) => {
     const user = await User.findOne({ username: message.author.username });
+    
     if (user) {
       message.reply(
         "You are already registered in the database. Use the balance command to check your Profile."

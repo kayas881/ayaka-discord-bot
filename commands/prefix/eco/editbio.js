@@ -1,6 +1,7 @@
 const User = require("../../../schemas/currencySchema");
 const { EmbedBuilder } = require("discord.js");
 const emojis = require("./../../../utilitiesJsons/emojis.json");
+const GuildSettings = require("./../../../schemas/GuildSchema");
 module.exports = {
   config: {
     name: "editbio",
@@ -17,9 +18,10 @@ module.exports = {
       return;
     }
     const user = await User.findOne({ username: message.author.username });
+    const guild = await GuildSettings.findOne({ guildId: message.guild.id });
     if (!user) {
       message.reply(
-        "You are not registered in the database. Use the !register command to get started!"
+        `You are not registered in the database. Use the  ${guild.prefix} register command to get started!`
       );
       return;
     }
